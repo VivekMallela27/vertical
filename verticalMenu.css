@@ -1,0 +1,92 @@
+/* a:hover
+{
+ text-decoration: none;
+} */
+
+/* h1:hover a
+{
+    color: aqua ;
+} */
+/* a{
+    display: none;
+}
+/* div:hover a */
+/* {
+ color: blueviolet;
+ text-decoration: none;
+} */
+/*div:hover a
+{
+ display: inline;
+}
+/* 
+======================== */
+/*a:hover
+{
+    text-decoration:none ;
+}
+h1 */
+body
+{
+    margin: 0;
+    padding: 0;
+    background-image:url(./img/Luffy.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav
+{
+    background-color: rgba(43, 166, 43, 0.418);
+    width: 10%;
+    height: 100vh;
+    
+    
+}
+#cont
+{
+    margin: 0;
+    padding: 0;
+}
+a
+{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+}
+a:hover
+{
+    background-color: rgba(196, 115, 58, 0.523);
+}
+/* #menu
+{ 
+    
+    margin: 0;
+    padding: 0;
+    background-color:cyan;
+    position:relative;
+    display: none;
+} */
+
+#menu
+{ 
+    
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    background-color:cyan;
+    position:absolute;
+    top: 0%;
+    left: 100%;
+
+    
+    display: none;
+}
+#drop
+{
+    position: relative;
+}
+#drop:hover #menu
+{
+    display: block;
+}
